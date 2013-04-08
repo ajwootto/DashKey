@@ -1,0 +1,49 @@
+#container {
+	height:960px;
+	width:640px;
+	overflow: hidden;
+}
+@font-face {
+font-family: segoe;
+src: url(segoe.ttf);
+}
+
+.key {
+	height: 100px;
+	width: 100px;
+	background-color: #AA1111;
+	color: white;
+	margin: 0 10px 10px 0;
+	display: inline-block;
+	font-size: 50pt;
+	text-align: center;
+	line-height: 90px;
+	font-family: segoe;
+	vertical-align: top;
+}
+.disabled {
+	opacity: 0.5;
+}
+.hasIcon {
+	background-color: transparent;
+}
+.key img {
+	height: 100%;
+	width: 100%;
+}
+#clear, #del {
+	font-size:20pt;
+		line-height: 90px;
+
+}
+.selection_message{
+	height:100px;
+	width:100%;
+	text-align: center;
+	font-size: 30pt;
+	line-height: 200%;
+	font-family: segoe;
+	background-color: #AA1111;
+	color: white;
+	display: none;
+}
